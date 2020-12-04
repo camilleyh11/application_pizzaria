@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>Pizzeria</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <div class="brand">
+        <button onclick="openMenu()">
+          &#9776; <!-- le menu déroulant sur la gauche (les 3 petites barres) -->
+        </button>
+        <a href="index.html">pizzeria</a>
+      </div>
+      <div class="header-links">
+        <a href="cart.html">Cart</a>
+        <a href="signin.html">Sign In</a>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h3>Shopping Categories</h3>
+      <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+      <ul>
+        <li>
+          <a href="index.html">Pants</a>
+        </li>
+
+        <li>
+          <a href="index.html">Shirts</a>
+        </li>
+
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="content">
+        <ul class="products">
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p1.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Chicken Parmesan</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella, filet de poulet rôti et mariné, tomates fraîches, parmigiano reggiano AOP</div>
+              <div class="product-price">12€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p2.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Queen</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella, jambon et champignons frais</div>
+              <div class="product-price">14€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p3.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">4 Fromages</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan ou crème fraîche légère, mozzarella, fromage de chèvre, emmental et Fourme d'Ambert AOP</div>
+              <div class="product-price">10€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p4.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">BPM</a>
+              </div>
+              <div class="product-brand">Sauce barbecue, mozzarella, haché au bœuf, filet de poulet rôti et mariné et merguez</div>
+              <div class="product-price">15€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p5.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Pepperoni Lovers</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella et saucisse pepperoni</div>
+              <div class="product-price">12€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p6.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Montagnarde</a>
+              </div>
+              <div class="product-brand">Crème fraîche légère, mozzarella, jambon cru, fromage à raclette et champignons frais</div>
+              <div class="product-price">16€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p7.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Margherita</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan et mozzarella</div>
+              <div class="product-price">11€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p8.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Raclette</a>
+              </div>
+              <div class="product-brand">Crème fraîche légère, mozzarella, pommes de terre, lardons et fromage à raclette</div>
+              <div class="product-price">16€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p9.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Chèvre Miel</a>
+              </div>
+              <div class="product-brand">Crème fraîche légère, mozzarella, fromage de chèvre, miel</div>
+              <div class="product-price">13€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p10.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Orientale</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella, merguez et champignons frais</div>
+              <div class="product-price">14€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p11.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Suprême</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella, haché au bœuf, saucisse pepperoni, champignons frais, oignons rouges frais et poivrons verts frais</div>
+              <div class="product-price">17€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p12.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Campagnarde</a>
+              </div>
+              <div class="product-brand">Crème fraîche légère, mozzarella, lardons, oignons rouges frais et champignons frais</div>
+              <div class="product-price">13€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p13.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nordique</a>
+              </div>
+              <div class="product-brand">Crème fraîche légère, mozzarella et saumon fumé de Norvège</div>
+              <div class="product-price">12€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p14.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Végétarienne</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella, champignons frais, oignons rouges frais, poivrons verts frais, tomates fraîches et Olives noires</div>
+              <div class="product-price">14€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p15.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Samouraï</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella, merguez, filet de poulet rôti et mariné, oignons rouges frais, Sauce Samouraï</div>
+              <div class="product-price">15€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p16.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Chicken Barbecue</a>
+              </div>
+              <div class="product-brand">Sauce barbecue, mozzarella, filet de poulet rôti et mariné, oignons rouges frais, champignons frais et poivrons verts frais</div>
+              <div class="product-price">16€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p17.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Spicy Hot One</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella, haché au bœuf, piments jalapeños, oignons rouges frais et tomates fraîches</div>
+              <div class="product-price">15€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p18.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Kasbah</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella, émincés de poulet, tomates fraîches, oignons rouges frais et sauce blanche kebab</div>
+              <div class="product-price">14€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p19.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Texanne Barbecue</a>
+              </div>
+              <div class="product-brand">Sauce barbecue, mozzarella, jambon, boulettes au bœuf*, lardons, champignons frais et oignons rouges frais.</div>
+              <div class="product-price">15€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p20.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Hawaïenne Jambon</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella, jambon et ananas</div>
+              <div class="product-price">14€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/p21.jpg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Provençale</a>
+              </div>
+              <div class="product-brand">Sauce tomate à l'origan, mozzarella, thon, tomates fraîches, oignons rouges frais et olives noires</div>
+              <div class="product-price">14€</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </main>
+    <footer class="footer">
+      All right reserved.
+    </footer>
+  </div>
+  <script>
+    function openMenu() {
+      document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu() {
+      document.querySelector(".sidebar").classList.remove("open")
+    }
+  </script>
+</body>
+
+</html>
